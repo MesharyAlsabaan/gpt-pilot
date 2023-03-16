@@ -1,0 +1,60 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+/.vs/angular/FileContentIndex/e38f1b88-fae9-4e57-9371-31deef54daa0.vsidx
+/.vs/angular/FileContentIndex/c23b4e2f-3e76-4bc7-bfdb-22014cedd207.vsidx
+/.vs/angular/FileContentIndex/9c874b3a-1bf6-4bcd-8b0f-79e2bdd83ca6.vsidx
+/.vs/angular/FileContentIndex/2b0130ee-d13d-430b-9e04-13552df495d1.vsidx
+*.vsidx
+/.vs/angular/FileContentIndex/read.lock
+/.vs/angular/v17/.suo
+/.vs/angular/FileContentIndex/write.lock
+/.vs/slnx.sqlite-journal
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/Frontend/v17/.wsuo
+/.vs/Frontend/v17/workspaceFileList.bin
+/.vs/Frontend/FileContentIndex/write.lock
