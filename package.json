@@ -14,16 +14,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "gptpilot.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "gptpilot.refactorCode",
         "title": "Reafactor Code"
       },
       {
         "command": "gptpilot.generateUnitTests",
         "title": "Generate Unit Test"
+      },
+      {
+        "command": "gptpilot.checkVulnerability",
+        "title": "Check Vulnerability"
       }
     ],
     "menus": {
@@ -34,6 +34,10 @@
         },
         {
           "command": "gptpilot.generateUnitTests",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "gptpilot.checkVulnerability",
           "when": "editorTextFocus"
         }
       ]
